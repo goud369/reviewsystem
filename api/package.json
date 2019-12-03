@@ -1,0 +1,24 @@
+{
+  "name": "casaone_restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vishnu Bompally",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.9",
+    "swagger-ui-express": "^4.1.2",
+    "sync-request": "^6.1.0",
+    "uuid": "^3.3.3"
+  }
+}
